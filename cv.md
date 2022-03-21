@@ -38,3 +38,12 @@ function getVowelCount(str) {
 }
 ```
 ***
+### Education
+* **University:** Belarusian academy of telecommunications, engineer of post of telecommunication
+* **Courses:**
+    + IT Incubator "HTML/CSS"
+    + RS Schools Course "JavaScript/Front-end. Stage 1" (in progress)
+***
+### Languages
+* **Russian** - Native
+* **English** - Intermediate

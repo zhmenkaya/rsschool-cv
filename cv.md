@@ -28,6 +28,7 @@ Let's do something special!
 * Layout for React
 ***
 ### Code Example
+
 **Vowel Count**
 *Return the number (count) of vowels in the given string. We will consider a, e, i, o, u as vowels for this Kata (but not y).
 The input string will only consist of lower case letters and/or spaces.*
@@ -39,11 +40,13 @@ function getVowelCount(str) {
 ```
 ***
 ### Education
+
 * **University:** Belarusian academy of telecommunications, engineer of post of telecommunication
 * **Courses:**
     + IT Incubator "HTML/CSS"
     + RS Schools Course "JavaScript/Front-end. Stage 1" (in progress)
 ***
 ### Languages
+
 * **Russian** - Native
 * **English** - Intermediate

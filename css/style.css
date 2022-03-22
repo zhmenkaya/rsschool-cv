@@ -26,20 +26,30 @@ body {
 .header {
     background-color: #3E3E3E;
 }
+
+.container{
+    max-width: 1024px;
+    padding: 20px;
+    margin: 0 auto;
+}
 .header__social-menu {
+    display: flex;
+    justify-content: flex-start;
 }
 .social-menu {
 }
 .social-menu__list {
     list-style: none;
     display: flex;
+
+}
+.social-menu__list:last-child{
+    margin-right: 0;
 }
 .social-menu__item {
-    
-    padding: 30px 0;
-    margin: 0 15px;
+    padding: 5px 0;
+    margin-right: 30px;
 }
-
 
 .social-menu__item-link {
 }
@@ -63,8 +73,14 @@ body {
 
 .main {
 	flex: 1 0 auto;
+    background:#F2F2F2;
 }
 .footer {
 	flex: 0 0 auto;
+    background-color:#81C341;
+}
+.footer__social-menu{
+    display: flex;
+    justify-content: flex-end;
 }
 

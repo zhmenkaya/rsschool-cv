@@ -269,6 +269,25 @@ a{
     font-size: 16px;
 }
 
+.works__inner {
+    display: flex;
+    margin-bottom: 10px;
+}
+.works__item {
+    margin-right: 25px;
+}
+.works__wrap-img {
+    min-width: 180px;
+    min-height: 150px;
+}
+.works__img {
+    width: 100%;
+    object-fit:fill;
+}
+.works__link {
+    color:#3E3E3E;
+}
+
 .languages__list li{
     color: #81C341;
     font-size: 18px;

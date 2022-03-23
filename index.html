@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CV</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="header__social-menu social-menu">
+
+                    <ul class="social-menu__list">
+                        <li class="social-menu__item">
+                            <a class="social-menu__item-link" href="#">
+                                <svg class="social-menu__item-icon">
+                                    <use xlink:href="./image/sprite.svg#fb"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-menu__item">
+                            <a class="social-menu__item-link" href="https://github.com/zhmenkaya">
+                                <svg class="social-menu__item-icon">
+                                    <use xlink:href="./image/sprite.svg#github"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-menu__item">
+                            <a class="social-menu__item-link" href="https://t.me/YavheniyaKl">
+                                <svg class="social-menu__item-icon">
+                                    <use xlink:href="./image/sprite.svg#telegram"/>
+                                </svg>
+                            </a>
+                        </li>
+                        
+    
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            
+            <section class="profile">
+                <div class="container">
+                    <div class="profile__inner">
+                        <div class="profile__wrap-img">
+                            <img  class="profile__image" src="./image/photo.jpg" alt="">
+                        </div>                               
+                        <div class="profile__info">
+                            <h1 class="profile__name">YAUHENIA KLIMOVICH</h1>
+                            <h2 class="profile__profession">Web developer</h2>
+                            <p class="profile__text">I am a web developer from Minsk.</p>
+                            <p class="profile__text">I have been creating websites since 2021
+                                        with an emphasis on responsive design with a well-thought-out, convenient
+                                        and high-quality layout.</p>  
+                            <p class="profile__text">Let's do something special!</p>
+                            <!-- <a class="profile__link-download" href="https://drive.google.com/file/d/1DcYRrBt0AMiYL9JUCSJxtuHl_uu0u-nf/view?usp=sharing" download="">Download CV</a> -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="main__inner">
+
+                <section class="education">
+                    <div class="container-fluid">
+                        <h2 class="education__title title">education</h2>
+                        <div class="education__inner">
+                            <div class="education__box-item">
+                                <p class="education__institution">RS Schools, courses</p>
+                                <p class="education__faculty">JavaScript/Front-end</p>
+                            </div>
+                            <div class="education__box-item">
+                                <p class="educational__period">2022- 2022</p>
+                                <p class="educational__spesiality">Front-end developer</p> 
+                            </div>
+                            <div class="education__box-item">
+                                <p class="education__institution">It Incubator, courses</p>
+                                <p class="education__faculty">Web developer</p>
+                            </div>
+                            <div class="education__box-item">
+                                <p class="educational__period">2021- 2021</p>
+                                <p class="educational__spesiality">web developer</p> 
+                            </div>
+                            <div class="education__box-item">
+                                <p class="education__institution">Belarusian academy of telecom-<br>munications</p>
+                                <p class="education__faculty">Post of telecommunication</p>
+                            </div>
+                            <div class="education__box-item">
+                                <p class="educational__period">2004- 2010</p>
+                                <p class="educational__spesiality">Engineer of post of telecommunication</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section class="contacts">
+                    <div class="container-fluid">
+                        <h2 class="contacts__title title">contacts</h2>  
+                        <div class="contacts__inner">
+                            <ul class="contacts__list">
+                                <li class="contacts__item  item item--tel">
+                                    <a class="contacts__link link link--tel " href="tel:+375447551840">+37544-755-18-40</a>
+                                    </li>
+                                <li class="contacts__item item item--mail">
+                                    <a class="contacts__link link link--mail" href="mailto:zh.shuravina@gmail.com">zh.shuravina@gmail.com
+                                    </a>
+                                </li>
+                                <li class="contacts__item link link--location">Minsk, Belarus</li>
+                                <li class="contacts__item item item--linkedin">
+                                    <a class="contacts__link link link--linkedin" href="https://www.linkedin.com/in/yauheniya-klimovich-895a98215/">linkedin</a>
+                                </li>
+                                <li class="contacts__item item item--git">
+                                    <a class="contacts__link link link--git" href="https://github.com/zhmenkaya">github</a>
+                                </li>
+                            </ul>
+                        </div>                  
+                    </div>
+                </section>
+
+                <section class="code-example">
+                    <div class="container-fluid">
+                        <h2 class="code-example__title title">code-example</h2>
+                        <div class="code-example__inner">
+                            <p class="code-example__text"><b>Vowel Count</b><br/> Return the number (count) of vowels in the given string. We will consider a, e, i, o, u as vowels for this Kata (but not y). The input string will only consist of lower case letters and/or spaces.</p>
+                            <pre class="code-example__code">
+                                <code>
+
+    function getVowelCount(str) {
+        return (str.match(/[aeiou]/gi) || []).length;
+    } 
+                                </code>
+                            </pre>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="skills">
+                    <div class="container-fluid">
+                        <h2 class="skills__title title">skills</h2>
+                        <div class="skills__inner">
+                            <ul class="skills__list"> 
+                                <li><span class="skills__item">HTML, CSS</span></li>
+                                <li><span class="skills__item">SCSS, Gulp, BEM</span></li>
+                                <li><span class="skills__item">Git, GitHub</span></li>
+                                <li><span class="skills__item">Java Screept basic</span></li>
+                                <li><span class="skills__item">Figma, Photoshop, VS Code</span></li>
+                                <li><span class="skills__item">Flex Box, Grid Layout</span></li>
+                                <li><span class="skills__item">Layout for React</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="works">
+                    <div class="container-fluid">
+                        <h2 class="works__title title">works</h2>
+                        <div class="works__inner">
+                            <div class="works__item">
+                                <div class="works__wrap-img">
+                                    <img class="works__img" src="./image/smoothiesScreen.png" alt="photo">
+                                </div>
+                                <a class="works__link" href="https://zhmenkaya.github.io/Smoothie-project/">Smoothies site</a>
+                            </div>
+                            <div class="works__item">
+                                <div class="works__wrap-img">
+                                    <img class="works__img" src="./image/RelapScreen.png" alt="photo">
+                                </div>
+                                <a class="works__link" href="https://zhmenkaya.github.io/relap-landing/">Relap site</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="languages">
+                    <div class="container-fluid">
+                        <h2 class="languages__title title">languages</h2>
+                        <ul class="languages__list">
+                            <li><span class="languages__item"><b>Russian</b> - Native</span></li>
+                            <li><span class="languages__item"><b>English</b> - Intermediate</span></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer__social-menu social-menu">
+
+                    <ul class="social-menu__list">
+                        <li class="social-menu__item">
+                            <a class="social-menu__item-link" href="#">
+                                <svg class="social-menu__item-icon">
+                                    <use xlink:href="./image/sprite.svg#fb1"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-menu__item">
+                            <a class="social-menu__item-link" href="https://github.com/zhmenkaya">
+                                <svg class="social-menu__item-icon">
+                                    <use xlink:href="./image/sprite.svg#github1"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-menu__item">
+                            <a class="social-menu__item-link" href="https://t.me/YavheniyaKl">
+                                <svg class="social-menu__item-icon">
+                                    <use xlink:href="./image/sprite.svg#telegram1"/>
+                                </svg>
+                            </a>
+                        </li>
+                        
+    
+                </nav>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
